@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Produtos</title>
+</head>
+
+<body>
+
+  <h1>Lista de Produtos</h1>
+
+  <button onclick="buscar()">Buscar Produtos</button>
+
+  <ul id="lista"></ul>
+
+  <script>
+
+    async function buscar() {
+
+      const resposta = await fetch("http://localhost:8080/produtos")
+      const produtos = await resposta.json()
+
+      const lista = document.getElementById("lista")
+
+      lista.innerHTML = ""
+
+      produtos.forEach(p => {
+
+        const li = document.createElement("li")
+        li.textContent = p
+        lista.appendChild(li)
+
+      })
+
+    }
+
+  </script>
+
+</body>
+
+</html>
