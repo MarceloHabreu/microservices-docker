@@ -1,6 +1,6 @@
 # STOCKR — Sistema de Gestão de Produtos
 
-![Preview do sistema](./docs/preview.png)
+![Preview do sistema](https://github.com/MarceloHabreu/microservices-docker/blob/main/FrontendImage.png)
 
 > CRUD completo de produtos com API REST em Spring Boot, banco de dados PostgreSQL e frontend em HTML/CSS/JS — tudo containerizado com Docker Compose.
 
