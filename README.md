@@ -145,4 +145,5 @@ spring:
 ## Autor
 
 Desenvolvido por **Marcelo Habreu**  
-Projeto de estudos — 5º período
+TDE Pratica DevOps  — 5º período
+Professor: Marcos Gomes da Silva Rocha
